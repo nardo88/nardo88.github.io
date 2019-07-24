@@ -1470,7 +1470,10 @@ justify-content: space-between;
 .photo_gallery{
 	width: 100%;
 	height: 760px;
-	
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
 	position: relative;
 	z-index: 999;
@@ -1492,32 +1495,47 @@ justify-content: space-between;
 .gallery_item_grid{
 	width: 50%;
 	display: grid;
+	display: -ms-grid;
 	grid-template-columns: 50% 50%;
+	-ms-grid-columns: 50% 50%;
 	grid-template-rows: 50% 50%;
+	-ms-grid-rows: 50% 50%;
 }
 
 .photo_gallery_item-grid1{
 	background-image: url(../images/photo_gallery2.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	-ms-grid-column: 1;
+  	-ms-grid-row: 1;
+  
+
 }
 
 .photo_gallery_item-grid2{
 	background-image: url(../images/photo_gallery3.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	-ms-grid-column: 2;
+  	-ms-grid-row: 1;
+
 }
 
 .photo_gallery_item-grid3{
 	background-image: url(../images/photo_gallery4.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	-ms-grid-column: 1;
+  	-ms-grid-row: 2;
+
 }
 
 .photo_gallery_item-grid4{
 	background-image: url(../images/photo_gallery5.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	-ms-grid-column: 2;
+  	-ms-grid-row: 2;
 }
 
 /*Секция с картами*/
