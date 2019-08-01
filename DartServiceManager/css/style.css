@@ -972,6 +972,7 @@ line-height: 25px;
 }
 
 .contact_us_form_area{
+	overflow: auto;
 	resize: none;
 	color: #061e37;
 	font-family: Raleway;
