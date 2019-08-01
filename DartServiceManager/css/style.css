@@ -972,7 +972,7 @@ line-height: 25px;
 }
 
 .contact_us_form_area{
-
+	resize: none;
 	color: #061e37;
 	font-family: Raleway;
 	font-size: 16px;
