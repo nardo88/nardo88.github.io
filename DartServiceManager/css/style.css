@@ -1377,6 +1377,13 @@ input[type="checkbox"]:checked + .label::before {
 }	
 
 
+@media (max-width: 325px){
+	.nav_link{
+		margin-right: 5px;
+	}
+}
+
+
 
 .open{
 	display: flex;
