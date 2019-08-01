@@ -1379,7 +1379,7 @@ input[type="checkbox"]:checked + .label::before {
 
 @media (max-width: 378px){
 	.nav_link{
-		margin-right: 2px;
+		margin: 0;
 	}
 	.footer_nav{
 		padding: 0;
