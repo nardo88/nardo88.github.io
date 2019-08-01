@@ -1156,6 +1156,7 @@ input[type="checkbox"]:checked + .label::before {
 	}
 	.header{
 		height: auto;
+		padding-bottom: 20px;
 	}
 	.head_contant_item{
 		width: 100%;
