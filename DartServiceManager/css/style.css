@@ -1381,6 +1381,9 @@ input[type="checkbox"]:checked + .label::before {
 	.nav_link{
 		margin-right: 2px;
 	}
+	.footer_nav{
+		padding: 0;
+	}
 }
 
 
