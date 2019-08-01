@@ -1411,31 +1411,3 @@ input[type="checkbox"]:checked + .label::before {
 }
 
 
-.slick-active{
-	width: auto;
-}
-
-
-.team_slider_photo_item {
-	width: auto;
-}
-slick-slide {
-	width: auto;
-}
-slick-current{
-	width: auto;
-} 
-slick-active {
-	width: auto;
-}
-slick-center{
-	width: auto;
-}
-
-.team_slider_photo_item .slick-slide .slick-current .slick-active .slick-center{
-	width: auto;
-}
-
-.team_slider_photo_item.slick-slide.slick-current.slick-active.slick-center{
-	width: auto;
-}
