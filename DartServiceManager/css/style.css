@@ -1357,7 +1357,7 @@ input[type="checkbox"]:checked + .label::before {
 	}
 
 	.nav_link{
-		margin-right: 28px;
+		margin-right: 20px;
 	}
 
 	.any_links{
