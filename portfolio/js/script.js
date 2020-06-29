@@ -76,37 +76,16 @@ $(document).bind('scroll', function () {
 
 	if ($(window).scrollTop() > 1700) {
 
-		$('#html_val').animate({
-	width: $('#html_val').text()
-	}, 1200, "linear" ) ;
-
-	$('#css_val').animate({
-		width: $('#css_val').text()
-	}, 1200, "linear" ) ;
-
-	$('#js_val').animate({
-		width: $('#js_val').text()
-	}, 1200, "linear" ) ;
-
-	$('#jquery_val').animate({
-		width: $('#jquery_val').text()
-	}, 1200, "linear" ) ;
-
-	$('#boot_val').animate({
-		width: $('#boot_val').text()
-	}, 1200, "linear" ) ;
-
-	$('#wp_val').animate({
-		width: $('#wp_val').text()
-	}, 1200, "linear" ) ;
-
-	$('#php_val').animate({
-		width: $('#php_val').text()
-	}, 1200, "linear" ) ;
+			$('#html_val').addClass('html_val');
+			$('#css_val').addClass('css_val');
+			$('#js_val').addClass('js_val');
+			$('#jquery_val').addClass('jquery_val');
+			$('#boot_val').addClass('boot_val');
+			$('#wp_val').addClass('wp_val');
+			$('#php_val').addClass('php_val');
 
 	}
 
-	
 });
 
 
