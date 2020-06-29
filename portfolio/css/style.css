@@ -1222,5 +1222,13 @@
 		height: auto;
 	}
 
+	.portfolio_item_wr:hover:before{
+	display: none;
+}
+
+.portfolio_item_wr:hover:after{
+	display: none;
+}
+
 }
 
