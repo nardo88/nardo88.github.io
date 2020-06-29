@@ -1004,9 +1004,7 @@
 	padding-right: 40px;
 	}
 
-/*	.marg_top{
-	margin-top: 0;
-	}*/
+
 }
 
 @media screen and (max-width: 990px){
@@ -1232,7 +1230,57 @@
 }
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 450px){
 
-	
+	.contacts h2{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.contacts_numbers{
+		padding-top: 25px;
+	}
+
+	.contacts_form{
+		margin-top: 25px;
+	}
+
+	.field_name {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	.contact_field{
+		margin-bottom: 15px;
+		height: 35px;
+		font-size: 20px;
+	}
+
+	.text_message{
+		font-size: 20px;
+		height: 200px;
+	}
+
+	.send_message{
+		font-size: 12px;
+		height: 40px;
+		width: 130px;
+	}
+
+	.footer{
+		height: auto;
+	}
+
+	.footer_wrapper{
+		padding-top: 10px;
+		height: auto;
+	}
+
+	.footer_rule{
+		font-size: 10px;
+	}
+
+	.footer_links{
+		margin-top: 15px;
+		margin-bottom: 25px;
+	}
 }
