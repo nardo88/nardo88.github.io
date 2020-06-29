@@ -999,7 +999,7 @@
 	align-items: flex-end;
 	position: absolute;
 	right: 0;
-	top: 100%;
+	
 	background-color: #252e30;
 	width: 100%;
 	padding-right: 40px;
@@ -1232,3 +1232,8 @@
 
 }
 
+
+@media screen and (max-width: 500px){
+
+	
+}
