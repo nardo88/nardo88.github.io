@@ -378,9 +378,7 @@
 
 .my_skills{
 	width: 100%;
-	/*height: 620px;*/
 	
-
 }
 
 .my_skills_wrap{
@@ -473,6 +471,9 @@
 
 
 }
+
+
+
 
 
 /*ПРОГРЕСС БАР СКИЛОВ*/
@@ -1099,11 +1100,11 @@
 	}
 
 	.my_skills_contant{
-		width: 100%;
 		padding-right: 0;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 50px;
+		width: 100%;
 	}
 	.btn{
 		margin-left: auto;
@@ -1288,4 +1289,43 @@
 		margin-top: 15px;
 		margin-bottom: 25px;
 	}
+}
+
+
+
+/*АНИМАЦИЯ СКИЛОВ*/
+
+.html_val{
+	transition: 1.3s;
+	width: 91%;
+}
+
+.css_val{
+	transition: 1.3s;
+	width: 75%;
+}
+
+.js_val{
+	transition: 1.3s;
+	width: 68%;
+}
+
+.jquery_val{
+	transition: 1.3s;
+	width: 65%;
+}
+
+.boot_val{
+	transition: 1.3s;
+	width: 79%;
+}
+
+.wp_val{
+	transition: 1.3s;
+	width: 84%;
+}
+
+.php_val{
+	transition: 1.3s;
+	width: 72%;
 }
