@@ -585,7 +585,6 @@
 
 
 .portfolio_description{
-/*  height: 48px;*/
   font-family: Roboto;
   font-size: 18px;
   line-height: 1.67;
@@ -1064,6 +1063,11 @@
 	.about_me_img{
 		display: none;
 	}
+
+	.portfolio_description{
+		text-align: justify;
+	}
+
 	.about_me_contant{
 		justify-content: center;
 		padding-right: 0px;
