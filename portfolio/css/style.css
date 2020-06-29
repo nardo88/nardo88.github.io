@@ -1223,12 +1223,12 @@
 	}
 
 	.portfolio_item_wr:hover:before{
-	display: none;
+		display: none;
 }
 
-.portfolio_item_wr:hover:after{
-	display: none;
-}
+	.portfolio_item_wr:hover:after{
+		display: none;
+	}
 
 }
 
