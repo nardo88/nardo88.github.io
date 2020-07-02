@@ -1366,6 +1366,7 @@ font-family: 'Open Sans', sans-serif;*/
 		justify-content: center;
 	}
 	.happy_clients_items{
+		width: 90%;
 		-webkit-flex-direction: column;
 		-moz-flex-direction: column;
 		-ms-flex-direction: column;
