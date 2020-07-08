@@ -809,8 +809,47 @@ font-family: 'Open Sans', sans-serif;
 	} 
 	.footer_rules_text{
 		text-align: center;
+		padding-top: 20px;
 	}
 	.navigation_wrapper{
 		padding-right: 20px;
+	}
+	.footer_rules{
+		padding-bottom: 20px;
+	}
+
+	.footer_items_wr{
+		padding: 0;
+	}
+
+	.footer_item_popular_post{
+		width: 80%;
+	}
+
+	.footer_item_tags{
+		width: 80%;
+
+	}
+	.tags_descr{
+		width: 100%;
+	}
+
+	.footer_item_about_us{
+		width: 80%;
+	}
+
+	.about_us_descr{
+		width: 100%;
+	}
+
+	.footer_item_get_in_tuch{
+		width: 80%;
+		margin-bottom: 10px;
+	}
+	.footer_item_title {
+		margin-top: 20px;
+	}
+	.customer_logos_wrapper{
+		padding-top: 0;
 	}
 }
