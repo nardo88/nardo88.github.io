@@ -1495,6 +1495,13 @@ input[type="checkbox"]:checked + .form_label::before{
 	.log_in_wind, .forget_window, .registr{
 		height: 490px;
 	}
+	.tab_control_item_name{
+		margin-left: 5px;
+	}
+	.tab_contant_item_title{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 
 
 }
