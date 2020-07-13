@@ -1,1 +1,398 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Crowdme</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body">
 
+	<!-- МОДАЛЬНОЕ ОКНО -->
+	<div class="modal_window">
+		<div class="window_wrapper_wr">
+			<div class="window_wrapper">
+				<div class="log_in_wind">
+					<form action="#" class="login_form">
+						<h3 class="log_in_wind_title">Вход в личный кабинет</h3>
+						<input type="email" class="login_form_input" placeholder="Email *" required="true">
+						<input type="password" class="login_form_input" placeholder="Password *" required="true">
+						<input type="checkbox" id="form_checkbox" required="true">
+						<label for="form_checkbox" class="form_label"> Запомнить меня</label>
+						<input type="submit" class="login_form_btn" value="вход">
+					</form>
+					<div class="form_links">
+						<a href="#!" class="form_link forget_pass">Забыли пароль</a>
+						<span class="seporate"> / </span>
+						<a href="#!" class="form_link registration">Регистрация</a>
+					</div>
+					<span class="close_modal"><i class="fa fa-close"></i></span>
+				</div>
+
+				<div class="forget_window">
+					<span class="close_modal"><i class="fa fa-close"></i></span>
+					<form action="#" class="forget_password">
+						<h3 class="log_in_wind_title">Восстановление пароля</h3>
+						<input type="email" class="login_form_input" placeholder="Email *" required="true">
+						<input type="submit" class="login_form_btn" value="Восстановить">
+					</form>
+					<div class="form_links">
+						<a href="#!" class="form_link autorizate">Авторизация</a>
+						
+					</div>
+				</div>
+
+				<div class="registr">
+					<span class="close_modal"><i class="fa fa-close"></i></span>
+					<form action="#" class="reg_form">
+						<h3 class="log_in_wind_title">Регистрация</h3>
+						<input type="email" class="login_form_input" placeholder="Email *" required="true">
+						<input type="password" class="login_form_input" placeholder="Password *" required="true">
+						<input type="password" class="login_form_input" placeholder="Confirm password *" required="true">
+						<input type="submit" class="login_form_btn" value="Регистрация">
+					</form>
+					<div class="form_links">
+						<a href="#!" class="form_link autorizate_from_reg">Авторизация</a>
+						
+						
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- СЕКЦИЯ HEADER -->
+	<header class="header">
+		<div class="header_wrapper">
+			<div class="header_logo">
+				<img src="images/header_logo.png" alt="" class="logo">
+				<div class="logo_text">Crowdme</div>
+			</div>
+			<div class="nav">
+				<a href="#!" class="nav_link">HOME</a>
+				<a href="#!" class="nav_link">HOW IT WORKS</a>
+				<a href="#!" class="nav_link">DISCOVER A PROJECT</a>
+				<a href="#!" class="nav_link">BLOG</a>
+				<a href="#!" class="nav_link">FIND OUT MORE</a>
+			</div>
+			<div class="log_in">
+				<input type="button" class="login_btn" value="login">
+			</div>
+			<button class="burger" type="button"><span class="burger_item"></span></button>
+		</div>
+		
+	</header>
+	
+	<!-- СЕКЦИЯ BANNER -->
+	<section class="banner">
+		<div class="wrapper">
+			<div class="slider">
+				<div class="slider_item">
+					<h1 class="slider_item_title">Intellectual Property has the Shelf Life</h1>
+					<p class="slider_item_text">of a Banana.</p>
+					<input type="button" class="slider_item_btn" value="Become a Member">
+				</div>
+
+				<div class="slider_item">
+					<h1 class="slider_item_title">Intellectual Property has the Shelf Life</h1>
+					<p class="slider_item_text">of a Banana.</p>
+					<input type="button" class="slider_item_btn" value="Become a Member">
+				</div>
+
+				<div class="slider_item">
+					<h1 class="slider_item_title">Intellectual Property has the Shelf Life</h1>
+					<p class="slider_item_text">of a Banana.</p>
+					<input type="button" class="slider_item_btn" value="Become a Member">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- СЕКЦИЯ OUR WORK -->
+	<section class="our_work">
+		<div class="wrapper">
+			<div class="our_work_logo">
+				<img src="images/our_work_logo.png" alt="">
+			</div>
+			<h2 class="our_work_title">
+				Our work is the presentation <br>
+				of our capabilities.
+			</h2>
+			<p class="our_work_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+			<p class="our_work_text">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+		</div>
+	</section>
+
+	<!-- Секция с табами -->
+	<sections class="tabs">
+		<div class="wrapper">
+			<div class="tab_control">
+				<div class="tab_control_item ">
+					<div class="tab_control_item_number active_item">1</div>
+					<div class="tab_control_item_name">Simple</div>
+				</div>
+
+				<div class="tab_control_item">
+					<div class="tab_control_item_number">2</div>
+					<div class="tab_control_item_name">Transparent</div>
+				</div>
+
+				<div class="tab_control_item ">
+					<div class="tab_control_item_number">3</div>
+					<div class="tab_control_item_name">Collaborative</div>
+				</div>
+			</div>
+			<div class="tab_contant">
+				<div class="tab_contant_item active_tab_contant">
+					<div class="tab_contant_item_img">
+						<img src="images/tab_contant_img.png" alt="">
+					</div>
+					<div class="tab_contant_item_descr">
+						<h3 class="tab_contant_item_title">
+							Browse projects, like booking a hotel online !
+						</h3>
+						<p class="tab_contant_item_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				</div>
+
+				<div class="tab_contant_item ">
+					<div class="tab_contant_item_img">
+						<img src="images/tab_contant_img2.png" alt="">
+					</div>
+					<div class="tab_contant_item_descr">
+						<h3 class="tab_contant_item_title">
+							Browse projects, like booking a hotel online !
+						</h3>
+						<p class="tab_contant_item_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				</div>
+
+				<div class="tab_contant_item ">
+					<div class="tab_contant_item_img">
+						<img src="images/tab_contant_img3.png" alt="">
+					</div>
+					<div class="tab_contant_item_descr">
+						<h3 class="tab_contant_item_title">
+							Browse projects, like booking a hotel online !
+						</h3>
+						<p class="tab_contant_item_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</sections>
+
+	<!-- СЕКЦИЯ FIND -->
+	<section class="find">
+		<div class="find_left">
+			<div class="find_left_img">
+				<img src="images/find_left.png" alt="">
+			</div>
+			<div class="find_left_contant">
+				<div class="find_left_contant_title">
+					Find Properties
+				</div>
+				<div class="find_left_contant_text">
+					Sign up to browse the portfolio.
+					Your journey to becoming a real estate baron starts here.
+				</div>
+
+				
+				<input type="button" class="find_left_contant_btn" value="Become A Member">
+			
+				
+			</div>
+		</div>
+		<div class="find_right">
+			<div class="find_right_img">
+				<img src="images/find_right.png" alt="">
+			</div>
+			<div class="find_right_contant">
+				<div class="find_right_contant_title">
+					Find Buyers
+				</div>
+				<div class="find_right_contant_text">
+					Sign up to browse the portfolio.
+					Your journey to becoming a real estate baron starts here.
+				</div>
+
+				<input type="button" class="find_right_contant_btn" value="Submit Your Project">
+			</div>
+		</div>
+	</section>
+
+	<!-- СЕКЦИЯ PROJECTS -->
+	<section class="projects">
+		<div class="wrapper">
+			<div class="projects_title">
+				<div class="projects_title_text">
+					<h3 class="projects_title_caption">Featured Projects</h3>
+					<p class="projects_title_descr">Brief details of new and popular projects. To view full listings, you will be required to
+					sign up and become a member.</p>
+				</div>
+				<div class="projects_title_button">
+					<input type="button" class="projects_title_btn" value="Become a Member">
+				</div>
+			</div>
+			<div class="projects_slider_wrapper">
+				<div class="projects_slider">
+					<div class="projects_slider_item_wrapper">
+						<div class="projects_slider_item">
+							<div class="projects_slider_item_img">
+								<img src="images/slider_item1.png" alt="">
+								<div class="new">
+									<span>new</span>
+								</div>
+								<button type="button" class="projects_slider_item_img_btn">From <span>GBP  3600</span></button>
+							</div>
+							<div class="projects_slider_item_description">
+								<div class="projects_slider_item_adress">Ontario Tower, LONDON</div>
+								<div class="projects_slider_item_text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</div>
+								<div class="rounded">
+									<div class="rounded_value"></div>
+								</div>
+								<div class="rounded_descr">
+									<div class="rounded_pers">10% Funded</div>
+									<div class="rounded_age">8 Days Left</div>
+								</div>
+
+								<div class="slider_item_link">
+									<a href="#!" class="item_link">See Project Details </a>
+									<i class="fa fa-caret-right"></i>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+
+					<div class="projects_slider_item_wrapper">
+						<div class="projects_slider_item">
+							<div class="projects_slider_item_img">
+								<img src="images/slider_item2.png" alt="">
+								<div class="new">
+									<span>new</span>
+								</div>
+								<button type="button" class="projects_slider_item_img_btn">From <span>GBP  3600</span></button>
+							</div>
+							<div class="projects_slider_item_description">
+								<div class="projects_slider_item_adress">Ontario Tower, LONDON</div>
+								<div class="projects_slider_item_text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</div>
+								<div class="rounded">
+									<div class="rounded_value value70"></div>
+								</div>
+								<div class="rounded_descr">
+									<div class="rounded_pers">70% Funded</div>
+									<div class="rounded_age">8 Days Left</div>
+								</div>
+
+								<div class="slider_item_link">
+									<a href="#!" class="item_link">See Project Details </a>
+									<i class="fa fa-caret-right"></i>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+
+					<div class="projects_slider_item_wrapper">
+						<div class="projects_slider_item">
+							<div class="projects_slider_item_img">
+								<img src="images/slider_item3.png" alt="">
+								<div class="new">
+									<span>new</span>
+								</div>
+								<button type="button" class="projects_slider_item_img_btn">From <span>GBP  3600</span></button>
+							</div>
+							<div class="projects_slider_item_description">
+								<div class="projects_slider_item_adress">Ontario Tower, LONDON</div>
+								<div class="projects_slider_item_text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</div>
+								<div class="rounded">
+									<div class="rounded_value"></div>
+								</div>
+								<div class="rounded_descr">
+									<div class="rounded_pers">10% Funded</div>
+									<div class="rounded_age">8 Days Left</div>
+								</div>
+
+								<div class="slider_item_link">
+									<a href="#!" class="item_link">See Project Details </a>
+									<i class="fa fa-caret-right"></i>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- СЕКЦИЯ REVIEW -->
+	<section class="review">
+		<div class="bg_img">
+			<img src="images/review_bg.png" alt="">
+		</div>
+		<div class="wrapper">
+			<h2 class="review_title">Be Part of a Growing International Community</h2>
+			<p class="review_descr">One of the challenges in networking is everybody thinks it's making cold calls to strangers. Actually, it's the people who already have strong trust relationships with you</p>
+			<div class="review_wrapper">
+				<div class="review_item">
+					<div class="review_message">
+						<img src="images/talk.png" alt="" class="review_bg">
+						<div class="review_contant">
+							<h5 class="review_contant_caption">One of the Best </h5>
+							<p class="review_contant_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod taempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+					<div class="review_person">
+						<div class="person_img">
+							<img src="images/bekham.png" alt="">
+						</div>
+						<div class="person_name">David Beckham</div>
+					</div>
+				</div>
+
+				<div class="review_item">
+					<div class="review_message">
+						<img src="images/talk.png" alt="" class="review_bg">
+						<div class="review_contant">
+							<h5 class="review_contant_caption">One of the Best </h5>
+							<p class="review_contant_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod taempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+					<div class="review_person">
+						<div class="person_img">
+							<img src="images/any_man.png" alt="">
+						</div>
+						<div class="person_name">David Beckham</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- СЕКЦИЯ FOOTER -->
+	<footer class="footer">
+		Copyright © 2001 - 2014  Cssauthor.com
+	</footer>
+
+	<script src="js/jquery.js"></script>
+	<script src="slick/slick.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
