@@ -8,7 +8,10 @@ export const radioPlayerInit = () => {
 	const radioStop = document.querySelector('.radio-stop')
 	const radioVolum = document.querySelector('.radio-volum')
 	const radioIconValueOff = document.querySelector('.radio-icon-value-Off')
+	const playerBtn = document.querySelectorAll('.player-btn')
+
 	const audio = new Audio()
+
 	audio.type = 'audio/aac'
 
 	radioStop.disabled = true
@@ -90,10 +93,14 @@ export const radioPlayerInit = () => {
 	})
 
 
+	playerBtn[0].addEventListener('click', () =>{
+		audio.pause()
+		changeIconPlay()
+	})
 
-
-
-
-
+	playerBtn[1].addEventListener('click', () =>{
+		audio.pause()
+		changeIconPlay()
+	})
 
 } 
